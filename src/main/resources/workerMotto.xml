@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean name="workerMotto" class="com.sda.example.Production.WorkerMotto">
+        <!-- <constructor-arg index="0" value="Carpenter">
+        <constructor-arg index="1" value="50">
+        <constuctor-arg index="2" ref="workerMotto"/">
+        <property name="tools" ref=""> -->
+    </bean>
+
+
+</beans>
