@@ -3,11 +3,11 @@
 <beans xmlns = "http://www.springframework.org/schema/beans"
        xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation = "http://www.springframework.org/schema/beans
-   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean name="workerMotto" class="com.sda.example.Production.WorkerMotto">
-        <constructor-arg value = "No worker without tools!"/>
-    </bean>
 
+    <import resource = "classpath:tools.xml"/>
+    <import resource = "classpath:worker.xml"/>
+    <import resource = "classpath:workerMotto.xml"/>
 
 </beans>

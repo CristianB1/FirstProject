@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7d4ce13-1ca9-4bda-b32e-c6f889085f57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/example/FirstProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/example/Production/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/example/Production/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerMotto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tools.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/worker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/workerMotto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WorkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-application-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/example/FirstProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/example/FirstProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/example/Production/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/example/Production/Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/example/Production/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/example/Production/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerMotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerMotto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/worker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/worker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/workerMotto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/workerMotto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FirstProject-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/example/FirstProject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/example/FirstProject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/example/Production/Tool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/example/Production/Tool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/example/Production/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/example/Production/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sda/example/Production/WorkerMotto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sda/example/Production/WorkerMotto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/worker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/worker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/workerMotto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/workerMotto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,27 +46,30 @@
         <counts>
           <entry key="dummy" value="3" />
           <entry key="fxml" value="115" />
-          <entry key="java" value="529" />
-          <entry key="xml" value="363" />
+          <entry key="java" value="1672" />
+          <entry key="xml" value="696" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="529" />
+          <entry key="JAVA" value="1672" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="478" />
+          <entry key="XML" value="811" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="fxml" value="3" />
-          <entry key="java" value="6" />
+          <entry key="java" value="10" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
-          <entry key="XML" value="3" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="10" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -63,17 +79,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="714">
               <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/FirstProject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+            <state relative-caret-position="342">
+              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WorkerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,19 +110,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/worker.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.6.RELEASE/spring-test-5.1.6.RELEASE.jar!/org/springframework/test/context/junit4/SpringRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/test-application-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/Production/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="107">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,8 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/Production/Tool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="340">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#134#135#0" expanded="true" />
                 <element signature="e#163#164#0" expanded="true" />
@@ -120,50 +198,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerMotto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/tools.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+            <state>
+              <caret selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/worker.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/workerMotto.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -171,8 +211,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -185,14 +225,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/tools.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/worker.fxml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sda/example/Production/Worker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sda/example/Production/Tool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerMotto.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/tools.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/workerMotto.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerMotto.java" />
         <option value="$PROJECT_DIR$/src/main/resources/workerMotto.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/example/Production/Tool.java" />
         <option value="$PROJECT_DIR$/src/main/resources/worker.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/tools.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/example/Production/Worker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sda/example/FirstProject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/test-application-context.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/WorkerTest.java" />
       </list>
     </option>
   </component>
@@ -305,6 +348,20 @@
             </path>
             <path>
               <item name="FirstProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curs44-20.04-Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curs44-20.04-Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -315,11 +372,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555751915410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555764174665" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -333,7 +390,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.WorkerTest.getTools">
     <configuration name="FirstProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sda.example.FirstProject" />
       <module name="Curs44-20.04-Spring" />
@@ -347,8 +404,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Curs44-20.04-Spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WorkerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerTest.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Curs44-20.04-Spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WorkerTest" />
+      <option name="METHOD_NAME" value="getTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerTest.getTools" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Curs44-20.04-Spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WorkerTest" />
+      <option name="METHOD_NAME" value="getTools" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FirstProject" />
+      <item itemvalue="JUnit.WorkerTest" />
+      <item itemvalue="JUnit.WorkerTest.getTools" />
+      <item itemvalue="JUnit.WorkerTest.getTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WorkerTest.getTools" />
+        <item itemvalue="JUnit.WorkerTest" />
+        <item itemvalue="JUnit.WorkerTest.getTest" />
         <item itemvalue="Application.FirstProject" />
       </list>
     </recent_temporary>
@@ -366,37 +460,97 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="WorkerTest - 2019.04.20 at 15h 15m 00s.xml">
+      <configuration name="WorkerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getTools - 2019.04.20 at 15h 17m 00s.xml">
+      <configuration name="WorkerTest.getTools" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getTools - 2019.04.20 at 15h 21m 18s.xml">
+      <configuration name="WorkerTest.getTools" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getTools - 2019.04.20 at 15h 29m 13s.xml">
+      <configuration name="WorkerTest.getTools" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getTools - 2019.04.20 at 15h 30m 33s.xml">
+      <configuration name="WorkerTest.getTools" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getTest - 2019.04.20 at 15h 31m 36s.xml">
+      <configuration name="WorkerTest.getTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getTools - 2019.04.20 at 15h 31m 53s.xml">
+      <configuration name="WorkerTest.getTools" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest - 2019.04.20 at 15h 36m 02s.xml">
+      <configuration name="WorkerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest - 2019.04.20 at 15h 37m 32s.xml">
+      <configuration name="WorkerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest - 2019.04.20 at 15h 38m 42s.xml">
+      <configuration name="WorkerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1785235" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.506383" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2822695" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.12281879" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.14899328" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.2638298" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067115" side_tool="true" weight="0.34184396" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49932885" visible="true" weight="0.35886526" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.111409396" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1785235" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.2638298" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067115" side_tool="true" weight="0.34184396" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49932885" visible="true" weight="0.35886526" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.111409396" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -416,34 +570,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerMotto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/workerMotto.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/Production/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="107">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.6.RELEASE/spring-test-5.1.6.RELEASE.jar!/org/springframework/test/context/junit4/SpringRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/Production/Tool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="e#134#135#0" expanded="true" />
             <element signature="e#163#164#0" expanded="true" />
@@ -457,49 +656,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/Production/WorkerMotto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/worker.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tools.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test-application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/FirstProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
           <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/tools.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WorkerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/workerMotto.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/worker.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/example/FirstProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        <state relative-caret-position="285">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

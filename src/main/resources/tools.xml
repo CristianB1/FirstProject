@@ -3,9 +3,28 @@
 <beans xmlns = "http://www.springframework.org/schema/beans"
        xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation = "http://www.springframework.org/schema/beans
-   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean name = "tool" class = "com.sda.example.Production.Tool">
+    <!--<bean name="tool" class="com.sda.example.Production.Tool">-->
+    <!--</bean>-->
+
+    <bean name="hammer" class="com.sda.example.Production.Tool">
+        <constructor-arg index="0" value="2"/>
+        <constructor-arg index="1" value="hammer"/>
+    </bean>
+
+    <bean name="saw" class="com.sda.example.Production.Tool">
+        <constructor-arg index="0" value="1"/>
+        <constructor-arg index="1" value="saw"/>
+    </bean>
+
+    <bean name="tools" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="hammer"/>
+                <ref bean="saw"/>
+            </list>
+        </constructor-arg>
     </bean>
 
 </beans>

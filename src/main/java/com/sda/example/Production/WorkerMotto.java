@@ -3,6 +3,10 @@ package com.sda.example.Production;
 public class WorkerMotto {
     private String citate;
 
+    public WorkerMotto(String citate) {
+        this.citate = citate;
+    }
+
     public String getCitate() {
         return citate;
     }
